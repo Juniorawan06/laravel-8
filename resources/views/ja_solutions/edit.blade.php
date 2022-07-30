@@ -2,7 +2,7 @@
 @section('title', 'Edit')
 @section('mainarea')
 <div class="container">
-<h1 class="p-3">Edit Staff</h1>
+<h1 class="p-3">Update Staff</h1>
 <form method="POST" action="/ja_solutions/edit">
     @csrf()
         <div class="row">
