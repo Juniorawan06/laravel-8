@@ -17,13 +17,13 @@
         </tr>
     </thead>
     <tbody>
-        @foreach($data as $dt)
+        @foreach($data as $row)
         <tr>
-            <td>{{$dt['id']}}</td>
-            <td>{{$dt['staffName']}}</td>
-            <td>{{$dt['staffPass']}}</td>
-            <td>{{$dt['created_at']}}</td>
-            <td>{{$dt['updated_at']}}</td>
+            <td>{{$row['id']}}</td>
+            <td>{{$row['staffName']}}</td>
+            <td>{{$row['staffPass']}}</td>
+            <td>{{$row['created_at']}}</td>
+            <td>{{$row['updated_at']}}</td>
             <td>
                 <a class="btn btn-success" href="/ja_solutions/edit/{{$dt['id']}}">Edit</a>
                 <a class="btn btn-danger" href="/ja_solutions/delete/{{$dt['id']}}">Trash</a>
