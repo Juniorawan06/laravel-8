@@ -21,4 +21,4 @@ Route::get('/ja_solutions/delete/{id}', [staffsController::class, 'delete']);
 Route::view('ja_solutions/add', 'ja_solutions.add');
 Route::post('/ja_solutions/add', [staffsController::class, 'add']);
 Route::get('/ja_solutions/edit/{id}', [staffsController::class, 'update']);
-Route::post('/ja_solutions/editt', [staffsController::class, 'change']);
+Route::post('/ja_solutions/edit', [staffsController::class, 'change']);
