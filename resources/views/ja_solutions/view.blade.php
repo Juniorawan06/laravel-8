@@ -25,8 +25,8 @@
             <td>{{$dt['created_at']}}</td>
             <td>{{$dt['updated_at']}}</td>
             <td>
-                <a class="btn btn-success" href="/ja_solutions/edit/{{$dt['id']}}">Edit</a>
-                <a class="btn btn-danger" href="/ja_solutions/delete/{{$dt['id']}}">Trash</a>
+                <a class="btn btn-success" href="edit/{{$dt['id']}}">Edit</a>
+                <a class="btn btn-danger" href="delete/{{$dt['id']}}">Trash</a>
         </td>
             @endforeach
         </tr>
