@@ -3,7 +3,7 @@
 @section('mainarea')
 <div class="d-flex justify-content-between align-items-center">
     <h1 style="font-family: 'Rosalinda Berlinata'">Staff List</h1>
-    <a href="ja_solutions/add" class="btn btn-primary">+ Add Staff</a>
+    <a href="{{ route('add') }}" class="btn btn-primary">+ Add Staff</a>
 </div>
 <table class="table table-sm table-striped table-bordered table-dark table-hover table-responsive">
     <thead class="thead-dark">
