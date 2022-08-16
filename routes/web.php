@@ -19,7 +19,7 @@ Route::get('/ja_solutions', [staffsController::class, 'view']);
 
 Route::get('/delete/{id}', [staffsController::class, 'delete']);
 
-Route::view('/add', 'add')->name('add');
+Route::view('/add', 'ja_solutions/add')->name('add');
 
 Route::post('/add', [staffsController::class, 'add']);
 
