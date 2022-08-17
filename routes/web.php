@@ -15,7 +15,7 @@ use App\Http\Controllers\staffsController;
 */
 
 Route::get('/', [staffsController::class, 'view']);
-Route::get('/ja_solutions', [staffsController::class, 'view']);
+// Route::get('/ja_solutions', [staffsController::class, 'view']);
 
 Route::get('/delete/{id}', [staffsController::class, 'delete']);
 
